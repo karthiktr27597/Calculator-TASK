@@ -57,5 +57,7 @@ let body = document.querySelector('body');
   if(e.code.includes('Digit')) {
     data.value += e.key
     console.log(e);
-  } 
+  }else{
+    alert('Only numbers are allowed');
+  }
   })
